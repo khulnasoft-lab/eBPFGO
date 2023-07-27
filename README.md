@@ -1,4 +1,4 @@
-# Go eBPF
+# eBPF GO
 [![Build Status](https://github.com/khulnasoft-labs/ebpfgo/actions/workflows/go.yml/badge.svg)](https://github.com/khulnasoft-labs/ebpfgo/actions?query=branch%3Amaster)
 [![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-labs/ebpfgo)](https://goreportcard.com/report/github.com/khulnasoft-labs/ebpfgo)
 [![Documentation](https://godoc.org/github.com/khulnasoft-labs/ebpfgo?status.svg)](http://godoc.org/github.com/khulnasoft-labs/ebpfgo)
