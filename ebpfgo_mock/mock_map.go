@@ -342,7 +342,7 @@ import (
 	"errors"
 	"unsafe"
 
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 )
 
 // MockMap defines eBPF mockmap and implements Map interface

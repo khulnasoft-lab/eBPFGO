@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 )
 
 var iface = flag.String("iface", "", "Interface to bind XDP program to")

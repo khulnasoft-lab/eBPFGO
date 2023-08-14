@@ -1,6 +1,6 @@
-// Copyright (c) 2022 khulnasoft-labs, Inc.
+// Copyright (c) 2022 khulnasoft-lab, Inc.
 // Based on the example by Konstantin Belyalov:
-// https://github.com/khulnasoft-labs/ebpfgo/blob/master/examples/xdp/packet_counter/ebpf_prog/xdp.c
+// https://github.com/khulnasoft-lab/ebpfgo/blob/master/examples/xdp/packet_counter/ebpf_prog/xdp.c
 #include "tc.h"
 
 // eBPF map to store IP metric counters

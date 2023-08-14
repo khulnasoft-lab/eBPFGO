@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 	"github.com/stretchr/testify/suite"
 )
 

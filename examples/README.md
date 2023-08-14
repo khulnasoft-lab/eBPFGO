@@ -3,12 +3,12 @@
 Please note that `eBPF` is supported only by Linux, it will not work on `MacOS`!
 
 ## List of examples
-- *SocketFilter*: [Simple Packet Counter](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/socket_filter/packet_counter)
-- *XDP*: [Simple packets protocol counter](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/xdp/packet_counter)
-- *XDP*: [Basic Firewall](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/xdp/basic_firewall)
-- *XDP*: [FIB lookup and bpf_redirect example](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/xdp/bpf_redirect_map)
-- *PerfEvents*: [XDP Dump](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/xdp/xdp_dump)
-- *Kprobes*: [Exec Dump](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/kprobe/exec_dump)
+- *SocketFilter*: [Simple Packet Counter](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/socket_filter/packet_counter)
+- *XDP*: [Simple packets protocol counter](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/xdp/packet_counter)
+- *XDP*: [Basic Firewall](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/xdp/basic_firewall)
+- *XDP*: [FIB lookup and bpf_redirect example](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/xdp/bpf_redirect_map)
+- *PerfEvents*: [XDP Dump](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/xdp/xdp_dump)
+- *Kprobes*: [Exec Dump](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/kprobe/exec_dump)
 
 ## How to run
 All examples actually contain 2 parts:
@@ -23,7 +23,7 @@ You need to build both to make example work.
 $ apt-get install clang llvm make
 
 # Install ebpfgo package
-$ go get github.com/khulnasoft-labs/ebpfgo
+$ go get github.com/khulnasoft-lab/ebpfgo
 
 ```
 

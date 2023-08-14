@@ -3,7 +3,7 @@ package ebpfgo_mock
 import (
 	"testing"
 
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 )
 
 // Just to ensure that MockProgram implements ebpfgo.Program interface

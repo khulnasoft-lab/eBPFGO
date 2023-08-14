@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 )
 
 type ipAddressList []string

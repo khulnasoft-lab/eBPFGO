@@ -3,7 +3,7 @@ package ebpfgo_mock
 import (
 	"io"
 
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 )
 
 // MockSystem is mock implementation of eBPF system

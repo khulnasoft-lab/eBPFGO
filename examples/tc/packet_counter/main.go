@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 )
 
 var iface = flag.String("iface", "", "Interface to bind TC program to")

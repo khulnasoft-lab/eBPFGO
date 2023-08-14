@@ -1,7 +1,7 @@
 # eBPF GO
-[![Build Status](https://github.com/khulnasoft-labs/ebpfgo/actions/workflows/go.yml/badge.svg)](https://github.com/khulnasoft-labs/ebpfgo/actions?query=branch%3Amaster)
-[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-labs/ebpfgo)](https://goreportcard.com/report/github.com/khulnasoft-labs/ebpfgo)
-[![Documentation](https://godoc.org/github.com/khulnasoft-labs/ebpfgo?status.svg)](http://godoc.org/github.com/khulnasoft-labs/ebpfgo)
+[![Build Status](https://github.com/khulnasoft-lab/ebpfgo/actions/workflows/go.yml/badge.svg)](https://github.com/khulnasoft-lab/ebpfgo/actions?query=branch%3Amaster)
+[![Go Report Card](https://goreportcard.com/badge/github.com/khulnasoft-lab/ebpfgo)](https://goreportcard.com/report/github.com/khulnasoft-lab/ebpfgo)
+[![Documentation](https://godoc.org/github.com/khulnasoft-lab/ebpfgo?status.svg)](http://godoc.org/github.com/khulnasoft-lab/ebpfgo)
 
 A nice and convenient way to work with `eBPF` programs / perf events from Go.
 
@@ -23,10 +23,10 @@ Meanwhile your contributions are warmly welcomed.. :)
 ## Installation
 ```bash
 # Main library
-go get github.com/khulnasoft-labs/ebpfgo
+go get github.com/khulnasoft-lab/ebpfgo
 
 # Mock version (if needed)
-go get github.com/khulnasoft-labs/ebpfgo/ebpfgo_mock
+go get github.com/khulnasoft-lab/ebpfgo/ebpfgo_mock
 ```
 
 ## Quick start
@@ -47,7 +47,7 @@ Consider very simple example of Read / Load / Attach
     value, _ := test.LookupInt(0)
     fmt.Printf("Value at index 0 of map 'test': %d\n", value)
 ```
-Like it? Check our [examples](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/)
+Like it? Check our [examples](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/)
 
 ## Perf Events
 Currently library has support for one, most popular use case of perf_events: where `eBPF` map key maps to `cpu_id`.
@@ -81,7 +81,7 @@ And the `go` part:
         }
     }
 ```
-Looks simple? Check our [full XDP dump example](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/xdp/xdp_dump)
+Looks simple? Check our [full XDP dump example](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/xdp/xdp_dump)
 
 ## Kprobes
 Library currently has support for `kprobes` and `kretprobes`.
@@ -119,7 +119,7 @@ And the `go` part:
 		}
 	}
 ```
-Simple? Check [exec dump example](https://github.com/khulnasoft-labs/ebpfgo/tree/master/examples/kprobe/exec_dump)
+Simple? Check [exec dump example](https://github.com/khulnasoft-lab/ebpfgo/tree/master/examples/kprobe/exec_dump)
 
 ## Good readings
 - [XDP Tutorials](https://github.com/xdp-project/xdp-tutorial)

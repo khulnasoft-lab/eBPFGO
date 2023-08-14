@@ -1,4 +1,4 @@
-// Copyright (c) 2020 khulnasoft-labs, Inc.
+// Copyright (c) 2020 khulnasoft-lab, Inc.
 
 package main
 
@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 	"github.com/vishvananda/netlink"
 )
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2020 khulnasoft-labs, Inc.
+// Copyright (c) 2020 khulnasoft-lab, Inc.
 
 
 

@@ -1,7 +1,7 @@
 package ebpfgo_mock
 
 import (
-	"github.com/khulnasoft-labs/ebpfgo"
+	"github.com/khulnasoft-lab/ebpfgo"
 )
 
 // MockProgram is mock implementation for eBPF program

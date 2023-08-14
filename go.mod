@@ -1,4 +1,4 @@
-module github.com/khulnasoft-labs/ebpfgo
+module github.com/khulnasoft-lab/ebpfgo
 
 go 1.13
 

@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/khulnasoft-labs/ebpfgo"
-	mock_wrapper "github.com/khulnasoft-labs/ebpfgo/ebpfgo_mock/wrapper"
+	"github.com/khulnasoft-lab/ebpfgo"
+	mock_wrapper "github.com/khulnasoft-lab/ebpfgo/ebpfgo_mock/wrapper"
 )
 
 // cgo-test does not support import C code

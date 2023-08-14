@@ -1,4 +1,4 @@
-# Copyright (c) 2019 khulnasoft-labs, Inc.
+# Copyright (c) 2019 khulnasoft-lab, Inc.
 # Full license can be found in the LICENSE file.
 
 GOCMD := go
